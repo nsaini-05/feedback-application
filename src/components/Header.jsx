@@ -2,10 +2,10 @@ import React from "react"
 import PropTypes from "prop-types"
 
 function Header({ text }) {
-  const headerStyles = {
-    color: "blue",
-    backgroundColor: "black",
-  }
+  // const headerStyles = {
+  //   color: "blue",
+  //   backgroundColor: "black",
+  // }
 
   return (
     <header>
