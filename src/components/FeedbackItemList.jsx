@@ -3,13 +3,14 @@ import FeedbackItem from "./FeedbackItem"
 import PropTypes from "prop-types"
 
 
-function FeedbackItemList({ feedBackList }) {
+function FeedbackItemList({ feedBackList, handleDelete }) {
   return (
     <div className="feedback-list">
       {feedBackList.map((feedBack) => (
         <FeedbackItem
           data = {feedBack}
           key={feedBack.id}
+          handleDelete = {handleDelete}
         ></FeedbackItem>
       ))}
     </div>
