@@ -6,15 +6,12 @@ function Card({ children, reverse }) {
 }
 
 Card.defaultProps = {
-    reverse : false
+  reverse: false,
 }
 
 Card.propTypes = {
-    reverse :  PropTypes.bool.isRequired,
-    children : PropTypes.node.isRequired
+  reverse: PropTypes.bool.isRequired,
+  children: PropTypes.node.isRequired,
 }
 
 export default Card
-
-
-
